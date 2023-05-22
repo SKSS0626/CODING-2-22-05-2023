@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<ctype.h>
+int main()
+{
+	char c;
+	printf("Enter the charecter:");
+	scanf("%c",&c);
+	if(isalpha(c))
+	printf("Given charecter is an alphabet");
+	else if(isdigit(c))
+	printf("Given charecter is a number");
+	else
+	printf("Given charecter is a special symbol");
+}
